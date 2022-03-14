@@ -57,3 +57,6 @@ suspend fun <T> safeApiCall(
 ``` kotlin
 val errorBody = throwable.response()?.errorBody()?.string()
 ```
+
+## Reference
+https://medium.com/@douglas.iacovelli/how-to-handle-errors-with-retrofit-and-coroutines-33e7492a912
