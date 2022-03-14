@@ -58,5 +58,9 @@ suspend fun <T> safeApiCall(
 val errorBody = throwable.response()?.errorBody()?.string()
 ```
 
+## Next Step
+* Check how to use Retrofit Call Aadapter
+    * https://medium.com/shdev/retrofit%EC%97%90-calladapter%EB%A5%BC-%EC%A0%81%EC%9A%A9%ED%95%98%EB%8A%94-%EB%B2%95-853652179b5b
+
 ## Reference
 https://medium.com/@douglas.iacovelli/how-to-handle-errors-with-retrofit-and-coroutines-33e7492a912
